@@ -1,0 +1,89 @@
+/* Fona attēls un pamata stils */
+body {
+    background-image: url("../images/fons.jpg"); /* ievieto savu fona bildi images/ mapē */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333333; /* teksta krāsa */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Galvenie virsraksti */
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+    color: #2f2f5a; /* var mainīt uz citu krāsu */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* viegla ēna uz fona */
+}
+
+h2 {
+    font-size: 26px;
+    color: #4b4b8a;
+    margin-bottom: 10px;
+}
+
+/* Parasti teksti */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 0 15px 0;
+}
+
+/* Kārto saturu */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Kartītes stils */
+.card {
+    background: rgba(255, 255, 255, 0.9); /* puscaurspīdīgs balts fons, lai tekstu varētu saskatīt */
+    padding: 20px;
+    margin: 25px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Bildes un video */
+img, video {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Lejupielādes poga */
+.download {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    padding: 15px;
+    width: 300px;
+    background: #6a5acd;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.download:hover {
+    background: #483d8b;
+}
+
+/* Avotu saites WiFi sadaļā */
+a.source {
+    color: darkslateblue;
+    display: block;
+    margin-top: 5px;
+    word-break: break-all;
+}
+
+/* Lai navbar neaizsedz saturu */
+.spacer {
+    height: 70px;
+}
